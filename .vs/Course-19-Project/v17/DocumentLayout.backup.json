@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\forms\\people\\peopleusercontrols\\ctrlfillpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\peopleusercontrols\\ctrlfillpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|c:\\d\\code\\roadmappart2\\course-19-project\\forms\\people\\peopleusercontrols\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\peopleusercontrols\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|c:\\d\\code\\roadmappart2\\course-19-project\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\forms\\people\\peopleusercontrols\\ctrlfillpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\peopleusercontrols\\ctrlfillpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\forms\\people\\addeditpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\addeditpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|c:\\d\\code\\roadmappart2\\course-19-project\\forms\\people\\personinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\personinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4B2CE4-AA35-4679-B370-7D97ACFC6E3E}|DataAccessLayer\\DataAccessLayer.csproj|C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\dataaccesslayer\\person\\personqueries\\persondataqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4B2CE4-AA35-4679-B370-7D97ACFC6E3E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\person\\personqueries\\persondataqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\forms\\people\\personinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D3B8A7-CA90-4153-B959-D1EFB249B4F6}|PersentationLayer.csproj|solutionrelative:forms\\people\\personinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonDataQueries.cs",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\DataAccessLayer\\Person\\PersonQueries\\PersonDataQueries.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Person\\PersonQueries\\PersonDataQueries.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\DataAccessLayer\\Person\\PersonQueries\\PersonDataQueries.cs",
+              "RelativeToolTip": "DataAccessLayer\\Person\\PersonQueries\\PersonDataQueries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:16:21.773Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonInfoForm.cs",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PersonInfoForm.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\PersonInfoForm.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PersonInfoForm.cs",
+              "RelativeToolTip": "Forms\\People\\PersonInfoForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T15:58:59.841Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonInfoForm.cs [Design]",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PersonInfoForm.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\PersonInfoForm.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PersonInfoForm.cs [Design]",
+              "RelativeToolTip": "Forms\\People\\PersonInfoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T17:07:33.007Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ctrlPersonCard.cs [Design]",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlPersonCard.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\PeopleUserControls\\ctrlPersonCard.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlPersonCard.cs [Design]",
+              "RelativeToolTip": "Forms\\People\\PeopleUserControls\\ctrlPersonCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T16:59:16.94Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.Designer.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\MainForm.Designer.cs",
+              "RelativeToolTip": "Forms\\MainForm.Designer.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAswJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T16:55:17.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEditPersonForm.cs [Design]",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\AddEditPersonForm.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\AddEditPersonForm.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\AddEditPersonForm.cs [Design]",
+              "RelativeToolTip": "Forms\\People\\AddEditPersonForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T12:24:00.361Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctrlFillPersonInfo.cs",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "RelativeToolTip": "Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T15:03:23.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ctrlFillPersonInfo.cs [Design]",
+              "DocumentMoniker": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "RelativeDocumentMoniker": "Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs",
+              "ToolTip": "C:\\D\\Code\\RoadMapPart2\\Course-19-Project\\Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs [Design]",
+              "RelativeToolTip": "Forms\\People\\PeopleUserControls\\ctrlFillPersonInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T16:52:43.133Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
