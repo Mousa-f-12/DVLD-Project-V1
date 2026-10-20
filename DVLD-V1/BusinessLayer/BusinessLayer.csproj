@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\clsApplication.cs" />
     <Compile Include="Application\ApplicationType\clsApplicationType.cs" />
+    <Compile Include="Application\LocalDrivingLicenseApplicatoin\clsLocalDrivingLicenseApplication.cs" />
     <Compile Include="Person\clsPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\TestType\clsTestType.cs" />

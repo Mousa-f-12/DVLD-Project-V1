@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Tests.TestType.TestTypeDataQueries
+namespace DataAccessLayer.Applicatoins.ApplicatoinTypeDataQuery
 {
-    public class TestTypeDataQueryies
+    public static class ApplicatoinTypeDataQuery
     {
         private static string _connectionString = ConfigurationManager.ConnectionStrings["ConnectionDVLD"].ConnectionString;
 
-        public static DataTable GetAllTestTypes()
+        public static DataTable GetAllApplicatoinTypes()
         {
             SqlConnection connection = new SqlConnection(_connectionString);
 
-            DataTable TestTypesTable = new DataTable();
-
-            string query = @"Select * From TestTypes;";
+            DataTable applicationTypesTable = new DataTable();
+                
+            string query = @"Select * From ApplicationTypes;";
 
             SqlCommand command = new SqlCommand(query, connection);
 
@@ -30,10 +31,10 @@ namespace DataAccessLayer.Tests.TestType.TestTypeDataQueries
                 SqlDataReader reader = command.ExecuteReader();
 
                 if (reader.HasRows)
-                    TestTypesTable.Load(reader);
+                    applicationTypesTable.Load(reader);
 
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
 
@@ -43,20 +44,20 @@ namespace DataAccessLayer.Tests.TestType.TestTypeDataQueries
                 connection.Close();
             }
 
-            return TestTypesTable;
+            return applicationTypesTable;
         }
 
-        public static bool FindTestType(int testTypeID, ref string testTypeTitle, ref string testTypeDescription, ref float testTypeFees)
+        public static bool FindApplicationType(int applicationTypeID, ref string applicationTypeTitle, ref float applicationFees)
         {
             SqlConnection connection = new SqlConnection(_connectionString);
 
             bool isFound = false;
 
-            string query = @"SELECT * FROM TestTypes WHERE TestTypeID = @TestTypeID";
+            string query = @"SELECT * FROM ApplicationTypes WHERE ApplicationTypeID = @ApplicationTypeID";
 
             SqlCommand command = new SqlCommand(query, connection);
 
-            command.Parameters.AddWithValue("@TestTypeID", testTypeID);
+            command.Parameters.AddWithValue("@ApplicationTypeID", applicationTypeID);
 
             try
             {
@@ -66,11 +67,9 @@ namespace DataAccessLayer.Tests.TestType.TestTypeDataQueries
 
                 if (reader.Read())
                 {
-                    testTypeTitle = (string)reader["TestTypeTitle"];
-                    testTypeDescription = (string)reader["TestTypeDescription"];
-                    testTypeFees = (float)((decimal)reader["TestTypeFees"]);
+                    applicationTypeTitle = (string)reader["ApplicationTypeTitle"];
+                    applicationFees = (float)((decimal)reader["ApplicationFees"]); 
                 }
-
 
                 isFound = true;
                 reader.Close();
@@ -87,6 +86,7 @@ namespace DataAccessLayer.Tests.TestType.TestTypeDataQueries
 
             return isFound;
         }
+
 
     }
 }

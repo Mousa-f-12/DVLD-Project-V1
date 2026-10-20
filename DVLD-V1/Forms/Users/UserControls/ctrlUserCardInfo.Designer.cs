@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbUserID = new System.Windows.Forms.Label();
-            this.lbUserName = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.lbIsActive = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.lbUserName = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbUserID = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.ctrlPersonCard1 = new Course_19_Project.UesrControls.ctrlPersonCard();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -58,26 +58,26 @@
             this.guna2GroupBox1.TabIndex = 1;
             this.guna2GroupBox1.Text = "LogIn Information";
             // 
-            // label1
+            // lbIsActive
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(142, 68);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "User ID :";
+            this.lbIsActive.AutoSize = true;
+            this.lbIsActive.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIsActive.ForeColor = System.Drawing.Color.DimGray;
+            this.lbIsActive.Location = new System.Drawing.Point(788, 68);
+            this.lbIsActive.Name = "lbIsActive";
+            this.lbIsActive.Size = new System.Drawing.Size(39, 25);
+            this.lbIsActive.TabIndex = 5;
+            this.lbIsActive.Text = "Yes";
             // 
-            // lbUserID
+            // label3
             // 
-            this.lbUserID.AutoSize = true;
-            this.lbUserID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUserID.ForeColor = System.Drawing.Color.DimGray;
-            this.lbUserID.Location = new System.Drawing.Point(242, 68);
-            this.lbUserID.Name = "lbUserID";
-            this.lbUserID.Size = new System.Drawing.Size(22, 25);
-            this.lbUserID.TabIndex = 1;
-            this.lbUserID.Text = "1";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(682, 68);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 25);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Is Active :";
             // 
             // lbUserName
             // 
@@ -100,26 +100,26 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "User Name :";
             // 
-            // lbIsActive
+            // lbUserID
             // 
-            this.lbIsActive.AutoSize = true;
-            this.lbIsActive.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbIsActive.ForeColor = System.Drawing.Color.DimGray;
-            this.lbIsActive.Location = new System.Drawing.Point(788, 68);
-            this.lbIsActive.Name = "lbIsActive";
-            this.lbIsActive.Size = new System.Drawing.Size(39, 25);
-            this.lbIsActive.TabIndex = 5;
-            this.lbIsActive.Text = "Yes";
+            this.lbUserID.AutoSize = true;
+            this.lbUserID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUserID.ForeColor = System.Drawing.Color.DimGray;
+            this.lbUserID.Location = new System.Drawing.Point(242, 68);
+            this.lbUserID.Name = "lbUserID";
+            this.lbUserID.Size = new System.Drawing.Size(22, 25);
+            this.lbUserID.TabIndex = 1;
+            this.lbUserID.Text = "1";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(682, 68);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Is Active :";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(142, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "User ID :";
             // 
             // ctrlPersonCard1
             // 

@@ -34,6 +34,8 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Applicatoins\ApplicationDataCommands\ApplicatoinDataCommand.cs" />
-    <Compile Include="Applicatoins\ApplicationDataQueries\ApplicatoinDataQuery.cs" />
+    <Compile Include="Applicatoins\ApplicationDataCommands\ApplicatoinDataCommands.cs" />
+    <Compile Include="Applicatoins\ApplicationTypes\ApplicationTypeDataCommands\ApplicatoinTypeDataCommand.cs" />
+    <Compile Include="Applicatoins\ApplicationTypes\ApplicationTypeDataQueries\ApplicatoinTypeDataQuery.cs" />
+    <Compile Include="Applicatoins\ApplictoinDataQueries\ApplicatoinDataQueries.cs" />
+    <Compile Include="Applicatoins\LocalDrivingLicense\LocalDrivingLicenseDataCommands\LocalDrivingLicenseDataCommands.cs" />
+    <Compile Include="Applicatoins\LocalDrivingLicense\LocalDrivingLicenseDataQueryies\LocalDrivingLicenseDataQueries.cs" />
     <Compile Include="People\PersonCommands\PersonDataCommands.cs" />
     <Compile Include="People\PersonQueries\PersonDataQueries.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

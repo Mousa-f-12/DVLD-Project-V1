@@ -1,4 +1,5 @@
-﻿using PersentationLayer.Forms.Tests;
+﻿using PersentationLayer.Forms.Applications.LocalDrivingLicenseApplication;
+using PersentationLayer.Forms.Tests;
 using PersentationLayer.Forms.Users;
 using PersentationLayer.GlobalClasses;
 using PersentationLayer.Properties;
@@ -84,6 +85,12 @@ namespace Course_19_Project
         {
             ManageTestTypesForm manageTestTypesForm = new ManageTestTypesForm();
             manageTestTypesForm.ShowDialog();
+        }
+
+        private void localLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddLocalDrivingLiceenseForm addLocalDrivingLiceenseForm = new AddLocalDrivingLiceenseForm();
+            addLocalDrivingLiceenseForm.ShowDialog();
         }
     }
 }

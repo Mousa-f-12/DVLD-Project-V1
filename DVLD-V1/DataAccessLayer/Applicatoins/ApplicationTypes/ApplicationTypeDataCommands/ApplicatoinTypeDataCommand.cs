@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Applicatoins.ApplicationDataCommands
+namespace DataAccessLayer.Applicatoins.ApplicatoinDataCommands
 {
-    public class ApplicatoinDataCommand
+    public class ApplicatoinTypeDataCommand
     {
         private static string _connectionString = ConfigurationManager.ConnectionStrings["ConnectionDVLD"].ConnectionString;
         

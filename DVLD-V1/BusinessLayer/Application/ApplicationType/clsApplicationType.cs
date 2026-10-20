@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Data;
-using DataAccessLayer.Applicatoins.ApplicationDataCommands;
-using DataAccessLayer.Applicatoins.ApplicationDataQueries;
+using DataAccessLayer.Applicatoins.ApplicatoinDataCommands;
+using DataAccessLayer.Applicatoins.ApplicatoinTypeDataQuery;
 
 
 namespace BusinessLayer.Application
@@ -30,12 +30,12 @@ namespace BusinessLayer.Application
 
         private bool _EditApplicationTypeInfo()
         {
-            return ApplicatoinDataCommand.UpdateApplicationType(this.ApplicationTypeID, this.ApplicationTypeTitle, this.ApplicationFees);
+            return ApplicatoinTypeDataCommand.UpdateApplicationType(this.ApplicationTypeID, this.ApplicationTypeTitle, this.ApplicationFees);
         }
 
         public static DataTable GetAllApplicationTypes()
         {
-            return ApplicatoinDataQuery.GetAllApplicatoinTypes();
+            return ApplicatoinTypeDataQuery.GetAllApplicatoinTypes();
         }
 
         public static clsApplicationType Find(int applicationTypeID)
@@ -43,7 +43,7 @@ namespace BusinessLayer.Application
             float applicationFees = 0;
             string applicationTypeTitle = "";
             
-            if (ApplicatoinDataQuery.FindApplicationType(applicationTypeID, ref applicationTypeTitle, ref applicationFees))
+            if (ApplicatoinTypeDataQuery.FindApplicationType(applicationTypeID, ref applicationTypeTitle, ref applicationFees))
             {
                 return new clsApplicationType(applicationTypeID, applicationTypeTitle, applicationFees);
             }

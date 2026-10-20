@@ -21,6 +21,8 @@ namespace BusinessLayer
 
         public string LastName { set; get; }
 
+        public string FullName { get { return $"{FirstName} {SecondName} {ThirdName} {LastName}"; } }
+
         public DateTime DateOfBirth { set; get; }
 
         public char Gender { set; get; }
